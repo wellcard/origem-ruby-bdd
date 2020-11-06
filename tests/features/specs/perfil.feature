@@ -5,6 +5,7 @@ Funcionalidade: Perfil
     Sendo um usuário
     Posso acessar o sistema com meu email e senha previamente cadastrados
 
+@editaNome
 @logout
 Cenario: Editar nome
     Dado que estou autenticado com "wellington.testes@email.com" e "123456"

@@ -5,6 +5,7 @@ Funcionalidade: Tarefas
     Sendo um usuário
     Posso acessar o sistema com meu email e senha previamente cadastrados
 
+@cadastraTarefa
 @logout
 Cenario: Cadastrar tarefa
     Dado que estou autenticado com perfil de cadastro
@@ -12,6 +13,7 @@ Cenario: Cadastrar tarefa
     E preencho os campo obrigatórios Nome, Data de Entrega e Tags e aciono o botão Cadastrar  
     Então visualizo o registro inserido na listagem
 
+@editaTarefa
 @logout
 Cenario: Editar tarefa
     Dado que estou autenticado com perfil de edição
