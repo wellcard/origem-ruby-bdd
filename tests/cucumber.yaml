@@ -1,4 +1,4 @@
 default: -p pretty -p html
-pretty: --format pretty -publish-quiet
-html: --format html -publish-quiet --out=log/features.html
+pretty: --format pretty --publish-quiet
+html: --format html --publish-quiet --out=log/features.html
 allure: --format pretty --format AllureCucumber::CucumberFormatter --out=log/allure-results
