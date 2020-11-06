@@ -8,13 +8,11 @@
   
   Quando('eu clico em Apagar') do
     find(:css, 'tr:nth-child(1) #delete-button').click
-
-    
+ 
   end
   
   E('confirmo a remoção da Tarefa') do
     click_button 'Sim'
-
 
   end
   

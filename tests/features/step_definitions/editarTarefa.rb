@@ -1,7 +1,7 @@
 
 Dado('que estou autenticado com perfil de edição') do
     visit '/login'
- 
+    sleep 2
     LoginPage.new.realizaLogin("wellington.testes@email.com", "123456")
 
   end

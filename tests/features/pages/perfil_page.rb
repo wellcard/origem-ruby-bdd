@@ -14,7 +14,8 @@ class PerfilPage
       
         select(['Developer', 'QA', 'CEO', 'CTO', 'Estagiario'].sample, from: 'profile.job') #seleciona randomicamente um valor da combobox
      
+
         click_button 'Salvar' #clica no botão com o texto 'Salvar'
-  
+        
     end
 end

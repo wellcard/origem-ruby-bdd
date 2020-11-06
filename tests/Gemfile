@@ -4,6 +4,7 @@ gem 'cucumber'
 gem 'capybara'
 gem 'rspec'
 gem 'selenium-webdriver'
+gem 'capybara-selenium'
 gem 'chromedriver-helper'
 
 gem "allure-cucumber"
