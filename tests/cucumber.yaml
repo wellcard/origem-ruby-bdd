@@ -1,4 +1,3 @@
----
 default: -p pretty -p html
 pretty: --format pretty -publish-quiet
 html: --format html -publish-quiet --out=log/features.html
