@@ -1,4 +1,5 @@
-default: -p pretty -p html
+default: -p pretty -p html -p json
 pretty: --format pretty --publish-quiet
-html: --format html --publish-quiet --out=log/features.html
-allure: --format pretty --format AllureCucumber::CucumberFormatter --out=log/allure-results
+html: --format html --publish-quiet --out=results/features.html
+json: --format json --publish-quiet --out=results/features.html
+allure: --format pretty --format AllureCucumber::CucumberFormatter --out=results/allure-results
